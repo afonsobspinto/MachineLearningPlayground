@@ -1,11 +1,9 @@
-from tkinter import *
+import gui
+from globals import *
+
 
 def main():
-    root = Tk()
-    w = Label(root, text="Hello, world!")
-    w.pack()
-    root.mainloop()
-
+    gui.GUI(WIDTH, HEIGHT)
 
 
 if __name__ == "__main__":
